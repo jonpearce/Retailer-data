@@ -1,35 +1,34 @@
 company,period_label,start_hour,end_hour,import_rate,export_rate,daily_fee
-EnergyLocals,Night (0-10am),0,10,29,2.8,139.67
-EnergyLocals,Midday (10am-2pm),10,14,29,1.5,139.67
-EnergyLocals,Afternoon (2-4pm),14,16,29,2,139.67
-EnergyLocals,Peak (4-9pm),16,21,29,12,139.67
-EnergyLocals,Evening (9pm-midnight),21,24,29,2.8,139.67
-VEN 23c (buy @ 23c & sell @ 6c then 29),Night,0,9,29,6.4,140
-VEN 23c (buy @ 23c & sell @ 6c then 29),Solar Hours,9,16,23.4,6.4,140
-VEN 23c (buy @ 23c & sell @ 6c then 29),Peak,16,24,29,6.4,140
-VEN (selling only @ 6c),All Day,0,24,29,6.4,139.67
-Vic Default Offer,All Day,0,24,28.4,0,116
-Vic Default Offer ToU,All Day,0,24,22.99,0,116
-AGL NightSaver,Night (0-6am),0,6,8,1.5,104.83
-AGL NightSaver,Day (6am-midnight),6,24,25.9,1.5,104.83
-CovaU Pty Ltd,All Day,0,24,28.84,4.9,116.48
-Diamond Energy,All Day,0,24,28.6,3,106.15
-Engie EV Flex,Night (0-6am),0,6,28.83,10,116.48
-Engie EV Flex,Day (6am-midnight),6,24,28.83,10,116.48
-Engie Perks Elec,All Day,0,24,28.83,4,116.48
-Engie TOU,Off-Peak (0-3pm),0,15,22.99,4,116.48
-Engie TOU,Peak (3-9pm),15,21,38.4,4,116.48
-Engie TOU,Off-Peak (9pm-midnight),21,24,22.99,4,116.48
-Momentum Energy,All Day,0,24,24.31,1.1,109.45
-Red Energy (Bus),All Day,0,24,27.148,1,126.071
-PowerShop,All Day,0,24,24.21,0.5,90.75
-Tango,All Day,0,24,30.28,0,96.25
-Jon's Ovo,Night (0-6am),0,6,8,3.3,82.5
-Jon's Ovo,Morning (6-11am),6,11,35.53,3.3,82.5
-Jon's Ovo,Solar (11am-2pm),11,14,0,3.3,82.5
-Jon's Ovo,Afternoon/Evening (2pm-midnight),14,24,35.53,3.3,82.5
-Richard Ovo,Night (0-6am),0,6,8,1,92.4
-Richard Ovo,Morning (6-11am),6,11,32.67,1,92.4
-Richard Ovo,Solar (11am-2pm),11,14,0,1,92.4
-Richard Ovo,Afternoon/Evening (2pm-midnight),14,24,48.18,1,92.4
-Test Elec,All Day,0,24,100,4,116.48
+EnergyLocals,0:00-10:00,0,10,29,2.8,139.67
+EnergyLocals,10:00-14:00,10,14,29,1.5,139.67
+EnergyLocals,14:00-16:00,14,16,29,2,139.67
+EnergyLocals,16:00-21:00,16,21,29,12,139.67
+EnergyLocals,21:00-24:00,21,24,29,2.8,139.67
+VEN 23c,0:00-9:00,0,9,29,6.4,140
+VEN 23c,9:00-16:00,9,16,23.4,6.4,140
+VEN 23c,16:00-24:00,16,24,29,6.4,140
+VEN selling @ 6c,0:00-24:00,0,24,29,6.4,139.67
+Vic Default Offer,0:00-24:00,0,24,28.4,0,116
+Vic Default ToU,0:00-24:00,0,24,22.99,0,116
+AGL NightSaver,0:00-6:00,0,6,8,1.5,104.83
+AGL NightSaver,6:00-24:00,6,24,25.9,1.5,104.83
+CovaU Pty Ltd,0:00-24:00,0,24,28.84,4.9,116.48
+Diamond Energy,0:00-24:00,0,24,28.6,3,106.15
+Engie EV Flex,0:00-6:00,0,6,28.83,10,116.48
+Engie EV Flex,6:00-24:00,6,24,28.83,10,116.48
+Engie Perks,0:00-24:00,0,24,28.83,4,116.48
+Engie TOU,0:00-15:00,0,15,22.99,4,116.48
+Engie TOU,15:00-21:00,15,21,38.4,4,116.48
+Engie TOU,21:00-24:00,21,24,22.99,4,116.48
+Momentum Energy,0:00-24:00,0,24,24.31,1.1,109.45
+Red Energy Bus,0:00-24:00,0,24,27.148,1,126.071
+PowerShop,0:00-24:00,0,24,24.21,0.5,90.75
+Tango,0:00-24:00,0,24,30.28,0,96.25
+Jon Ovo,0:00-6:00,0,6,8,3.3,82.5
+Jon Ovo,6:00-11:00,6,11,35.53,3.3,82.5
+Jon Ovo,11:00-14:00,11,14,0,3.3,82.5
+Jon Ovo,14:00-24:00,14,24,35.53,3.3,82.5
+Richard Ovo,0:00-6:00,0,6,8,1,92.4
+Richard Ovo,6:00-11:00,6,11,32.67,1,92.4
+Richard Ovo,11:00-14:00,11,14,0,1,92.4
+Richard Ovo,14:00-24:00,14,24,48.18,1,92.4
